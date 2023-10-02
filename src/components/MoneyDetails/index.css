@@ -1,0 +1,58 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.balance-container {
+  font-family: 'Roboto';
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+  border-radius: 14px;
+  height: 80px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  padding: 14px;
+}
+
+.income-container {
+  font-family: 'Roboto';
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+  border-radius: 14px;
+  height: 80px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  padding: 14px;
+}
+
+.expenses-container {
+  font-family: 'Roboto';
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+  border-radius: 14px;
+  height: 80px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  padding: 14px;
+}
+
+.balance-img {
+  height: 50px;
+  padding-right: 16px;
+}
+
+.your-balance {
+  color: #475569;
+  font-size: 10px;
+  margin-top: 22px;
+  margin-bottom: 0px;
+}
+
+.amount {
+  color: #475569;
+  font-size: 18px;
+  margin-top: 10px;
+}
